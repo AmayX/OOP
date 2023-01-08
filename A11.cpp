@@ -42,7 +42,7 @@ p->id="null";
 tail->next=p;
 p->prev=tail;
 tail=p;
-tail->next=head;
+tail->next=head; //creating doubly linked list
 head->prev=tail;
 
 }
